@@ -9,17 +9,17 @@ const Footer = () => {
         <ul>
           <li>
             <a href="https://instagram.com">
-              <Image src="/insta_logo.png" width={75} height={75} />
+              <Image src="/insta_logo.png" alt="logo-insta" width={75} height={75} />
             </a>
           </li>
           <li>
             <a href="https://facebook.com">
-              <Image src="/fb_logo.png" width={75} height={75} />
+              <Image src="/fb_logo.png" alt="logo-fb" width={75} height={75} />
             </a>
           </li>
           <li>
             <a href="https://linkedin.in"></a>
-            <Image src="/linkedin_logo.png" width={75} height={75} />
+            <Image src="/linkedin_logo.png" alt="logo-linkedin" width={75} height={75} />
           </li>
         </ul>
       </div>

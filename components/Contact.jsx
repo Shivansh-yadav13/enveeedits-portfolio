@@ -32,7 +32,7 @@ const Contact = () => {
           </div>
         </div>
         <div className={styles.contact_img}>
-          <Image src="/contact_2.jpg" width="1000" height="580" />
+          <Image src="/contact_2.jpg" alt="contact" width="1000" height="580" />
         </div>
       </div>
     </>
