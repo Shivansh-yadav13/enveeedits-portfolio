@@ -1,0 +1,24 @@
+.navbar {
+  /* background-color: black; */
+}
+
+.navbar .container {
+  width: fit-content;
+  margin-inline: auto;
+}
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.navbar ul li {
+  padding: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar ul :hover {
+  background-color: orangered;
+  color: white;
+  cursor: pointer;
+}

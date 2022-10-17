@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Suez+One&display=swap');
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 10rem;
+}
+
+.socials {
+  text-align: center;
+}
+
+.socials ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin-inline: auto;
+}
+
+.socials ul li {
+  margin-inline: 1rem;
+}
+
+.socials h1 {
+  font-family: 'Suez One', serif;
+  letter-spacing: 2px;
+}
+
+.table {
+  display: flex;
+  margin-inline: 10%;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+
+  justify-content: space-evenly ;
+}
+
+.table ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.table ul li {
+  margin-block: 1rem;
+}
+
+.copyright {
+  color: rgb(121, 121, 121);
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.copyright span {
+  font-weight: bold;
+}
+
+.copyright span a {
+  text-decoration: underline;
+}
